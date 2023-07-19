@@ -1,0 +1,320 @@
+/* <!-- This is my navber --> */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+
+.frame {
+    display: flex;
+    gap: 15px;
+}
+
+.frame .h1 {
+    margin-top: 5px;
+}
+
+.frame img {
+    width: 86.041px;
+    height: 40px;
+}
+
+#g {
+    color: #fc066ccc;
+}
+
+.fa-youtube {
+    color: rgb(252, 8, 8);
+    position: relative;
+    right: -2px;
+}
+
+.fa-tiktok {
+    position: relative;
+    left: 5px;
+}
+
+.ul>ul {
+    display: flex;
+}
+
+.ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.ul li a {
+    text-decoration: none;
+}
+
+.ul .li {
+    background-color: rgb(213, 215, 218);
+    border: 1px solid none;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    margin-top: -10px;
+}
+
+/* this is a main scetion  */
+
+.relative {
+    position: relative;
+    margin-left: 170px;
+    margin-top: -580px;
+}
+
+.img {
+    display: flex;
+}
+
+.im {
+    width: 45%;
+}
+
+.ge {
+    width: 50%;
+}
+
+.goat {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: rgb(190, 7, 175);
+    margin-top: 50px;
+
+}
+
+.ppp {
+    color: #534C64
+}
+
+.hh {
+    font-size: 25px;
+
+}
+
+.www {
+    padding: 21px 40px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border-radius: 48px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid rgb(226, 61, 212);
+}
+
+.aaa {
+    padding: 21px 40px;
+    background: #4EC5F7;
+    border-radius: 48px;
+
+    font-size: 20px;
+    border: 2px solid rgb(54, 173, 252);
+
+
+}
+
+.aaa a {
+    text-decoration: none;
+    color: white;
+}
+
+/* this is my old section  */
+
+.pistol {
+
+    display: flex;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 50px;
+
+
+}
+
+.hoho {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.phph {
+    text-align: center;
+}
+
+#spa {
+    color: #e10dfd;
+}
+
+.tow img {
+    width: 80%;
+}
+
+/* this is my anather section  */
+
+
+.look-mama {
+    display: flex;
+    padding: 30px 200px;
+    align-items: center;
+
+}
+
+.mmmm img {
+    width: 80%;
+    margin-left: 220px;
+}
+
+.look h1 {
+    font-size: 40px;
+}
+
+
+.ytyt {
+    position: relative;
+    width: 5px;
+
+    top: 200px;
+    right: 650px;
+}
+
+/* <!-- this is my anather section  - */
+
+.camara {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 70px;
+}
+
+.pppp {
+    position: relative;
+    bottom: 70px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.cncn {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+
+.camara-of {
+    display: flex;
+    position: relative;
+    margin-left: 180px;
+    margin-top: -90px;
+    gap: 10px;
+}
+
+
+
+/* this is a footer section and end  */
+
+
+.footer {
+
+    width: 1920px;
+    height: 636px;
+    background-color: #050507;
+}
+
+.hhtt {
+    color: rgb(255, 255, 255);
+}
+
+.frame-a {
+    position: relative;
+    margin-left: 540px;
+    top: 60px;
+}
+
+.offf>ul>li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.uull {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 320px;
+    top: 80px;
+    list-style: none;
+}
+
+#oiii {
+    color: #0b0b0c;
+}
+
+.ppp-b {
+    color: rgb(121, 121, 121);
+    margin-left: 60px;
+}
+
+.ppp-t {
+    color: rgb(156, 155, 155);
+}
+
+.off-my-footer {
+    position: relative;
+    margin-left: 330px;
+    top: 200px;
+}
+
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-linkedin-in {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-apple {
+    color: white;
+
+}
+
+.icon-all {
+    position: relative;
+    left: 450px;
+    top: 150px;
+
+    font-size: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* This is a midiya quuari */
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .ul>ul>li {
+        flex-direction: column;
+        margin-right: 40px;
+    }
+}
+
+/* This is a midiya quuari */
